@@ -1,10 +1,9 @@
 backend:
   name: git-gateway
-  repo: https://github.com/GiridharanSanthoshkumar/netlify-react.git
   branch: master
 
-media_folder: public/images
-public_folder: /images
+media_folder: "public/images"
+public_folder: "/images"
 
 collections:
   - name: "gallery"
