@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: your-github-username/your-repo-name
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: "gallery"
+    label: "Gallery"
+    files:
+      - name: "gallery"
+        label: "Gallery"
+        file: "src/data.json"
+        fields:
+          - {label: "Title", name: "name", widget: "string"}
+          - {label: "Image", name: "img", widget: "image"}
+          
