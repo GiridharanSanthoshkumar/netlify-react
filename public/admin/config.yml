@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: your-github-username/your-repo-name
-  branch: main
+  repo: https://github.com/GiridharanSanthoshkumar/netlify-react.git
+  branch: master
 
 media_folder: public/images
 public_folder: /images
