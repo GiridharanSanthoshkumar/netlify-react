@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: https://github.com/GiridharanSanthoshkumar/netlify-react.git
   branch: master
 
